@@ -1,0 +1,92 @@
+body {
+    background-color: #303030;
+}
+/* Navigation Bar */
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    background-color: #303030;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    
+}
+
+li.nav {
+    display: inline;
+    float: left;
+    
+}
+
+li.nav :hover {
+    background-color: orange;
+}
+
+/* title */
+h1 {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul.books li {
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    
+}
+figcaption {
+    border: 1px solid grey;
+    border-radius: 100px;
+    border-width: 25px;
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: center;
+    width: 33%;
+    padding: 5px;
+    margin-left: px;
+    
+    
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  img{
+    margin-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+
+  #abt {
+    font-family: 'Courier New', Courier, monospace; 
+    color: white; 
+    text-align: center;
+    font-size: 60px;
+  }
